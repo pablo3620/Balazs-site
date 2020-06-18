@@ -1,0 +1,56 @@
+
+
+
+/* styling of the scroll down button */
+.demo button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font: normal 400 20px/1 'Open Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+    cursor: pointer;
+    background-color: #00000000;
+    border: none;
+}
+
+/* hover effect on the button */
+.demo button:hover {
+    opacity: .5;
+}
+/* to give spacing on top of button */
+#section02 button {
+    padding-top: 60px;
+}
+/* styling of the cirlce in the button */
+#section02 button span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 46px;
+    height: 46px;
+    margin-left: -23px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+/* styoing of the down arrow in the button */
+#section02 button span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin: -12px 0 0 -8px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+}

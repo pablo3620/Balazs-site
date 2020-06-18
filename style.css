@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@100;400&display=swap');
+* {
+    transition: 0.3s;
+    margin: 0;
+    padding: 0;
+}
+
+/* styleing for the page */
+html,
+body{
+    width: 100%;
+    background-color: #f5f5f5;
+    scroll-behavior: smooth;
+}
+.main {
+    width: 52%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 92px;
+    line-height: 120px;
+    color: #feffff;
+    padding: 2vw 0 2vw 0 ;    
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 26px;
+    color: #feffff;
+    padding: 2vw 0 2vw 30% ;  
+
+}
+
+
+.header {
+    width: 80vw;
+    margin: auto;
+    border-bottom: #202020 1.3px solid ;
+}
+.header img {
+    margin:auto;
+    display: block;
+    padding: 1.4vw;
+
+}
+.parallax {
+    /*parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+/* styling of the full page parallax image at the top of the page */
+.parallax.full {
+    height: 100vh;
+}
+
+
+
